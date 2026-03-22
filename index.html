@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Universal Computer Institute, Tumsar</title>
+  <meta name="description" content="Universal Computer Institute, Tumsar - Practical computer education, career-focused training, and trusted guidance for students." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">Universal Computer Institute</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+      <nav class="nav" id="navMenu">
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge">Admissions Open</p>
+          <h1>Build Your Digital Skills with Confidence</h1>
+          <p class="lead">
+            Welcome to <strong>Universal Computer Institute, Tumsar</strong>. We provide practical,
+            job-oriented computer training for students, beginners, and working professionals.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Enquire Now</a>
+            <a class="btn btn-outline" href="tel:+919822456743">Call 9822456743</a>
+          </div>
+          <div class="quick-info">
+            <div>
+              <h3>Location</h3>
+              <p>Shri Ramnagar, Tumsar</p>
+            </div>
+            <div>
+              <h3>Contact</h3>
+              <p>9822456743 / 9175597982</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Start Your Learning Journey</h2>
+          <p>Get guidance on the right course for your academic and career goals.</p>
+          <ul>
+            <li>Beginner to advanced computer training</li>
+            <li>Practical lab-based learning</li>
+            <li>Supportive and friendly teaching</li>
+          </ul>
+          <a class="btn btn-primary w-full" href="https://wa.me/919822456743" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2>About the Institute</h2>
+        <p>
+          Universal Computer Institute is committed to quality computer education in Tumsar.
+          Our mission is to make students confident in real-world digital tools, office software,
+          internet skills, and professional computer usage.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="courses">
+      <div class="container">
+        <h2>Popular Training Programs</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Basic Computer Course</h3>
+            <p>Computer fundamentals, typing, internet, email, and file management.</p>
+          </article>
+          <article class="card">
+            <h3>MS-CIT Preparation</h3>
+            <p>Structured guidance for MS-CIT with theory + practical support.</p>
+          </article>
+          <article class="card">
+            <h3>Office Productivity</h3>
+            <p>MS Word, Excel, PowerPoint, and practical office documentation tasks.</p>
+          </article>
+          <article class="card">
+            <h3>Advanced Computer Skills</h3>
+            <p>Job-oriented practical assignments to improve confidence and employability.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why-us">
+      <div class="container">
+        <h2>Why Choose Us</h2>
+        <div class="features">
+          <div class="feature">Experienced instruction with practical teaching methods</div>
+          <div class="feature">Student-friendly environment and personal attention</div>
+          <div class="feature">Affordable learning for all age groups</div>
+          <div class="feature">Focus on career-ready digital skills</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact Us</h2>
+          <p><strong>Universal Computer Institute, Tumsar</strong></p>
+          <p>Address: Shri Ramnagar, Tumsar</p>
+          <p>Phone: <a href="tel:+919822456743">9822456743</a>, <a href="tel:+919175597982">9175597982</a></p>
+          <p>Visit our institute to get counselling and choose the best course for your future.</p>
+        </div>
+        <form class="contact-form" id="enquiryForm">
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Phone Number
+            <input type="tel" name="phone" required />
+          </label>
+          <label>
+            Course Interested In
+            <input type="text" name="course" />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send Enquiry</button>
+          <p class="form-note" id="formMessage" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Universal Computer Institute, Tumsar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
