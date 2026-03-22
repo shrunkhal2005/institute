@@ -261,6 +261,10 @@ textarea:focus {
   color: #0f5132;
 }
 
+.form-note.error {
+  color: #b91c1c;
+}
+
 .site-footer {
   border-top: 1px solid var(--border);
   background: #fff;
